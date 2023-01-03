@@ -1,0 +1,9 @@
+h1, h4 {
+  color: #FFF;
+  background-color:black;
+  margin: 20px auto;
+}
+.chapter {
+	display: block;
+	margin: 20px auto;
+}
