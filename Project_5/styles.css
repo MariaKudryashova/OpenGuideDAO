@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  padding: 20px 0;
+  color: #E50043;
+  background-color: #FFFFFF;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+	padding: 10px;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+.item {
+	padding: 10px;
+}
+
+.logo {		
+	display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: url(images/evian_origins_logo.png);
+	height:400px;
+	background-size: cover;
+	color: #E50043;
+	text-align: center;
+	vertical-align: middle;
+}
+.logo > p {
+	
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 40px;
+}
+.mission {
+	border: 3px solid #F8BFC7;
+	border-radius: 30px;
+	padding: 10px;
+	margin:30px 150px 30px 150px;
+}
+
+
+.description {
+	border: 3px solid #F8BFC7;
+	border-radius: 30px;
+	padding: 10px;
+	margin:30px 150px 30px 150px;
+	
+	display: flex;
+    justify-content: left;
+}
+
+.products-container {  
+  display: flex;
+  justify-content: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+.product-items {
+	border: 3px solid #F8BFC7;
+	border-radius: 30px;
+	padding: 10px;
+	margin:30px 150px 30px 150px;
+	
+	display: flex;
+    justify-content: center;
+}
+
+.bottles { 
+	
+	display: flex;
+    justify-content: right;  
+    flex-direction: column;
+}
+
+.bottle-black {	
+	background: url(images/black.png);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: contain;
+	height: 400px;
+}
+
+.bottle-blue {
+	background: url(images/blue.png);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: contain;
+	height: 400px;
+}
+
+.bottle-white {
+	background: url(images/white.png);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: contain;
+	height: 400px;
+}
+.name-bottle {
+    text-align: center;
+	vertical-align: contain;
+}
