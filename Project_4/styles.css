@@ -19,11 +19,12 @@ h1 {
 }
 
 .main-container {
-    width: auto;
-    height: 100%;    
-    padding: 20px;
+    /*width: auto;
+    height: 100%;*/    
+    padding: 20px 0;
 	display: flex;
-	justify-content:space-around;
+	justify-content: center;/*space-around;*/
+	gap: 20px;
 }
 
 .col1,

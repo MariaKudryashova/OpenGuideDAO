@@ -11,6 +11,11 @@
   
   display: flex;
   justify-content: center;
+  
+  font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
 }
 
 .header {
@@ -21,6 +26,7 @@
 
 .brand {
 	padding: 10px;
+	
 }
 .links {
   display: flex;
@@ -36,7 +42,7 @@
     align-items: center;
   
     background: url(images/evian_origins_logo.png);
-	height:400px;
+	height: 950px;
 	background-size: cover;
 	color: #E50043;
 	text-align: center;
@@ -53,19 +59,11 @@
 	border: 3px solid #F8BFC7;
 	border-radius: 30px;
 	padding: 10px;
-	margin:30px 150px 30px 150px;
+	margin-bottom: 50px;
+	/*margin:30px 150px 30px 150px;*/
 }
 
 
-.description {
-	border: 3px solid #F8BFC7;
-	border-radius: 30px;
-	padding: 10px;
-	margin:30px 150px 30px 150px;
-	
-	display: flex;
-    justify-content: left;
-}
 
 .products-container {  
   display: flex;
@@ -73,18 +71,20 @@
 }
 
 .products {
-  display: flex;
+  /*display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: column;*/
+  width: 1040px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 
 .product-items {
 	border: 3px solid #F8BFC7;
 	border-radius: 30px;
-	padding: 10px;
-	margin:30px 150px 30px 150px;
-	
+	padding: 10px;	
+	margin-bottom: 50px;
 	display: flex;
     justify-content: center;
 }
@@ -95,7 +95,7 @@
     justify-content: right;  
     flex-direction: column;
 }
-
+/*
 .bottle-black {	
 	background: url(images/black.png);
 	background-repeat: no-repeat;
@@ -118,8 +118,48 @@
 	background-position: center; 
 	background-size: contain;
 	height: 400px;
-}
+}*/
 .name-bottle {
     text-align: center;
 	vertical-align: contain;
+}
+
+
+.description {
+	border: 3px solid #F8BFC7;
+	border-radius: 30px;
+	padding: 10px;
+	
+	display: flex;
+    justify-content: center;
+}
+.description-item {
+	background: url(images/white.png);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: contain;
+	height: 200px;
+	width:100px;
+	margin:0 50px;
+}
+.description-text {
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+.footer {	
+	justify-content: center;
+    background-color: #F8BFC7;
+	padding:1px 0;	
+}
+
+h2 {	
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	display: flex;
+	color: #FFFFFF;
+	background-color: #F8BFC7;	
 }
