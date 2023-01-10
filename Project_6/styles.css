@@ -1,0 +1,69 @@
+* {
+	background-color: #FFFFFF;  
+}
+
+.header {
+	background-color: #0000FF;	
+	padding:5px 0;	
+}
+h1 {	
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+	background-color: #0000FF;	
+}
+
+.main-container {
+    /*width: auto;
+    height: 100%;*/    
+    padding: 20px 0;
+	display: flex;
+	justify-content: center;/*space-around;*/
+	gap: 20px;
+    align-items: stretch;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+	border: 5px solid #000000;
+	padding: 10px;
+    width: 600px;
+    height:300px;
+}
+
+
+.footer {	
+	justify-content: center;
+    background-color: #0000FF;
+	padding:1px 0;	
+}
+
+p {	
+	font-family: 'Helvetica';	
+	font-size: 50px;
+	color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Если макет превышает размер iPhone 12 Pro */
+@media only screen and (min-width: 391px) {    
+    .main-container {
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: stretch;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
