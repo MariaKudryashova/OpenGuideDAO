@@ -60,10 +60,7 @@
 	border-radius: 30px;
 	padding: 10px;
 	margin-bottom: 50px;
-	/*margin:30px 150px 30px 150px;*/
 }
-
-
 
 .products-container {  
   display: flex;
@@ -71,9 +68,6 @@
 }
 
 .products {
-  /*display: flex;
-  justify-content: space-between;
-  flex-direction: column;*/
   width: 1040px;
   margin: 0 auto;
   padding: 50px 0;
@@ -95,35 +89,11 @@
     justify-content: right;  
     flex-direction: column;
 }
-/*
-.bottle-black {	
-	background: url(images/black.png);
-	background-repeat: no-repeat;
-	background-position: center; 
-	background-size: contain;
-	height: 400px;
-}
 
-.bottle-blue {
-	background: url(images/blue.png);
-	background-repeat: no-repeat;
-	background-position: center; 
-	background-size: contain;
-	height: 400px;
-}
-
-.bottle-white {
-	background: url(images/white.png);
-	background-repeat: no-repeat;
-	background-position: center; 
-	background-size: contain;
-	height: 400px;
-}*/
 .name-bottle {
     text-align: center;
 	vertical-align: contain;
 }
-
 
 .description {
 	border: 3px solid #F8BFC7;
@@ -134,12 +104,7 @@
     justify-content: center;
 }
 .description-item {
-	background: url(images/white.png);
-	background-repeat: no-repeat;
-	background-position: center; 
-	background-size: contain;
-	height: 200px;
-	width:100px;
+	height:100px;
 	margin:0 50px;
 }
 .description-text {
