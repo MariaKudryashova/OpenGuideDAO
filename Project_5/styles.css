@@ -104,9 +104,14 @@
     justify-content: center;
 }
 .description-item {
-	/*height:100px;*/
+	
 	margin:0 50px;
 }
+
+.description img {
+	height:220px;
+}
+
 .description-text {
 	text-align: left;
 	vertical-align: middle;

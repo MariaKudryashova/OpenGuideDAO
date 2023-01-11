@@ -20,25 +20,18 @@ h1 {
 }
 
 .main-container {
-    /*width: auto;
-    height: 100%;*/    
-    padding: 20px 0;
 	display: flex;
-	justify-content: center;/*space-around;*/
+	justify-content:center;
+    flex-wrap: wrap;
 	gap: 20px;
-    align-items: stretch;
-    /*flex-wrap: wrap;*/
-    flex-direction: column;
 }
 
-.box1,
-.box2,
-.box3,
-.box4 {
+.box {
 	border: 5px solid #000000;
 	padding: 10px;
-    width: 300px;
+    width: 100%;
     height:200px;
+	margin:5px;
 }
 
 
@@ -50,7 +43,7 @@ h1 {
 
 p {	
 	font-family: 'Helvetica';	
-	font-size: 30px;
+	font-size: 20px;
 	color: #000000;
     padding: 10px;
     text-align: center;
@@ -58,13 +51,10 @@ p {
 
 /* Если макет превышает размер iPhone 12 Pro */
 @media only screen and (min-width: 391px) {    
-    .main-container {
-        padding: 20px 0;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        align-items: stretch;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
+    .box {
+		width:45%;
+	}
+	p {
+		font-size: 30px;
+	}
 }
