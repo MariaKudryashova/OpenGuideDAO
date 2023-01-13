@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  padding: 20px 0;
+  color: black;
+  background-color: #F8BFC7;
+  
+  display: flex;
+  justify-content: center;
+  
+  font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.header {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+	padding: 10px;
+	display: flex;
+  justify-content: flex-end;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+.item {
+	padding: 10px;
+}
+
+.logo {		
+	display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: url(images/back.png);
+	height: 950px;
+	background-size: cover;
+	color: #E50043;
+	text-align: center;
+	vertical-align: middle;
+}
+.logo > p {
+	
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 40px;
+}
+.mission {
+	border: 3px solid #F8BFC7;
+	border-radius: 30px;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+.products-container {  
+  display: flex;
+  justify-content: center;
+}
+
+.products {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+
+.product-items {
+	border: 3px solid #F8BFC7;
+	border-radius: 30px;
+	padding: 10px;	
+	margin-bottom: 50px;
+	display: flex;
+    justify-content: center;
+}
+
+.bottles { 
+	
+	display: flex;
+    justify-content: right;  
+    flex-direction: column;
+}
+
+.name-bottle {
+    text-align: center;
+	vertical-align: contain;
+}
+
+.description {
+	border: 3px solid #F8BFC7;
+	border-radius: 30px;
+	padding: 10px;
+	
+	display: flex;
+    justify-content: center;
+}
+.description-item {
+	
+	margin:0 50px;
+}
+
+.description img {
+	height:220px;
+}
+
+.description-text {
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+.footer {	
+	justify-content: center;
+    background-color: #F8BFC7;
+	padding:1px 0;	
+}
+
+h2 {	
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	display: flex;
+	color: #FFFFFF;
+	background-color: #F8BFC7;	
+}
