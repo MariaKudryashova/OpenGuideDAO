@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  color: black;
+  background-color: #F8BFC7;  
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.header {
+  width: 100%;  
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.parcel {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item {	
+	margin: 20px 10px;
+    font-size: 20px;
+	font-family: 'Helvetica';	
+	vertical-align: middle;		
+	text-align:center;
+	font-weight: 600;
+}
+
+
+.msg {
+	background: #336FD1;
+}
+.msg > p {
+	
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 50px;
+	color: #FEB700;
+	line-height: 57px;
+	text-align: center;
+	height:200px;
+}
+
+
+.footer {	
+	display: flex;
+	justify-content: center;
+    background-color: #F8BFC7;
+	padding:20px;	
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+h2 {	
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #F8BFC7;	
+	font-weight: 600;
+}
+
+.form {			
+    align-items: bottom;  
+    background: url(images/back.png);
+	background-repeat:no-repeat;
+	display: flex;
+	justify-content: left;
+	color: #FFFFFF;
+	flex-direction: column;
+}
+
+.send-form {
+  background-color: #F8BFC7;
+  border: 3px solid #FFFFFF;
+  border-radius: 20px;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-bottom:10px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #FFFFFF;
+  padding: 10px 30px 5px 30px;
+}
+.form hr {
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	width:100%;
+}
+
+.form-row input[type='text'],
+.form-row input[type='email'] {
+  background-color: #F8BFC7;
+  width: 100%;
+  padding: 7px;
+  font-size: 20px;
+  color: #FFFFFF;
+  border: 1px solid #F8BFC7;
+}
+
+.form-row label {
+  font-family: 'Helvetica';
+	font-size: 20px;
+	line-height: 23px;
+	
+  font-weight: bold;
+}
+
+
+.button-form {  
+  width: 200px;
+  margin-left: 125px;
+  margin-bottom: 10px;
+}
+
+
+.button-row button {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 10px 40px;
+  cursor: pointer;
+  
+  background-color: #FEB700;
+  border: 3px solid #FFFFFF;
+  border-radius: 30px;
+  
+  height:60px;
+  width:200px;
+}
+
+.button-row button:hover {
+  background-color: #0b24fb;
+}
+
+.button-row button:active {
+  background-color: #f1eeee;
+}
