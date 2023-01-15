@@ -6,33 +6,18 @@
 	background-color: #FFE138;	
 	padding:5px 0;	
 }
-h1 {	
-	font-family: 'Times New Roman';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 50px;
-	line-height: 57.5px;
-	display: flex;
-	align-items: center;
-	color: black;
-	background-color: #FFE138;	
-}
 
-.main-container {
-    /*width: auto;
-    height: 100%;*/    
+.main-container { 
     padding: 20px 0;
 	display: flex;
-	justify-content: center;/*space-around;*/
+	justify-content: center;
 	gap: 20px;
 }
 
-.col1,
-.col2,
-.col3 {
-	border: 3px solid #E5E000;
-	border-radius: 30px;
-	padding: 10px;
+.col {
+	border: 1px solid #000000;		
+	width: 400px;
+	margin: 0 20px;
 }
 
 
@@ -42,36 +27,56 @@ h1 {
 	padding:1px 0;	
 }
 
-h2 {	
-	font-family: 'Helvetica';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 28px;
-	display: flex;
-	align-items: center;
-	color: black;
+
+h1, h2 {
+	font-family: 'Times New Roman';
+	font-size: 50px;
+	color: #000000;
 	background-color: #FFE138;	
+	text-align:center;
 }
 
 h3 {
-	font-family: 'Helvetica';
+	font-family: 'Times New Roman';
 	font-size: 20px;
-	line-height: 23px;
+	line-height: 25px;
 	display: flex;
 	align-items: center;
 	color: #000000;
 }
 
-p {
-	
+p {	
 	font-family: 'Times New Roman';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
-	line-height: 23px;
+	line-height: 25px;
 	display: flex;
 	align-items: center;
-
 	color: #000000;
+}
+
+.desc {
+	padding: 0 20px;
+}
+
+.illustration {
+    display: block;
+	text-align: center;
+}
+
+/* Макет для мобильных и планшетов */
+@media only screen and (max-width: 900px) {
+	  .main-container { 
+		flex-direction: column;
+	}
+	
+	.col {
+		width: 800px;
+	}
+	.illustration > img {
+	width: 800px;
+	}
+
+	
 }
