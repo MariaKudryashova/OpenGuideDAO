@@ -93,8 +93,9 @@ h2 {
   width: 100%;
   padding: 7px;
   font-size: 20px;
-  color: #FFFFFF;
-  border: 1px solid #F8BFC7;
+  color: #FFFFFF;  
+  border: none;
+  border-bottom: 2px solid white; 
 }
 .form-row label {
   font-family: 'Helvetica';
@@ -133,7 +134,7 @@ button {
 	justify-content: left;
 }
 
-.form-row input {
+.gift input {
 	outline:none;
-	border-bottom: 2px solid white; 
+	
 }
