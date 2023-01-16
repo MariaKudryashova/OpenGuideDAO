@@ -65,6 +65,10 @@ p {
 	text-align: center;
 }
 
+img {
+	width: 100%;
+}
+
 /* Макет для мобильных и планшетов */
 @media only screen and (max-width: 900px) {
 	  .main-container { 
@@ -76,7 +80,5 @@ p {
 	}
 	.illustration > img {
 	width: 400px;
-	}
-
-	
+	}	
 }
