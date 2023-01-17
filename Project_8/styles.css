@@ -28,6 +28,7 @@
 	vertical-align: middle;		
 	text-align:center;
 	font-weight: 600;
+	gap:20px;
 }
 .msg {
 	background: #336FD1;

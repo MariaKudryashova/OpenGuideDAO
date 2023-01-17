@@ -1,0 +1,174 @@
+* {
+	background-color: #000000;
+}
+
+.header {
+	background-color: #000000;	
+	padding:5px 0;	
+}
+
+.header-container {
+	display: flex;
+	justify-content:space-between;
+    flex-wrap: wrap;
+	background-color: #000000;
+	margin: 0 60px;
+}
+
+.illustration {
+	background-color: #000000;
+}
+.main-container {
+	display: flex;
+	justify-content:space-between;
+    flex-wrap: wrap;
+	background-color: #000000;
+	gap:20px;
+	
+}
+
+
+.main-item {
+	background-color: #000000;
+	color: #A37846;
+	font-size: 15px;
+	font-family: 'Helvetica';	
+	
+}
+.item {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family: 'Helvetica';	
+	
+}
+.lang-container {
+	display: flex;
+	justify-content:space-between;
+    flex-wrap: wrap;
+	background-color: #000000;
+	gap:20px;
+}
+
+.find-pic {
+	background-color: #000000;
+	
+}
+
+.header-currensies {
+	display: flex;
+	justify-content:space-between;
+    flex-wrap: wrap;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+}
+.curr_usdeuro {
+	background-color: #FFFFFF;
+	border-radius: 10px;
+}
+
+.showing {
+	color: #9CA1A9;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+}
+
+.box-container {
+	display: flex;
+	justify-content:center;
+    flex-wrap: wrap;
+	flex-direction: column;
+	gap: 10px;
+	background-color: #F2F2F2;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border-radius: 10px;
+}
+
+.head-box {
+	border: 5px solid #000000;
+	padding: 10px;
+	margin:5px;
+	background: #FFFFFF;
+	border: 5px solid #A37846;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	background-color: #FFFFFF;
+	
+	
+}
+.header-box-title {
+	font-family: 'PF Regal Text Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #000000;
+	background-color: #FFFFFF;
+	margin-bottom:50px;
+}
+
+.header-box-date {
+	font-family: 'PF Regal Text Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #9CA1A9;
+	background-color: #FFFFFF;
+}
+
+
+.new-box {
+	border: 5px solid #000000;
+	padding: 10px;
+	margin:5px;
+	background: #FFFFFF;
+	border: 1px solid #9CA1A9;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	
+	background-color: #FFFFFF;
+}
+
+.col-container {
+	display: flex;
+	justify-content:space-between;
+    flex-wrap: wrap;
+	gap: 10px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin:25px;
+}
+.col {	
+	font-family: 'PF Regal Text Pro';
+	font-style: normal;
+	font-size: 15px;
+	line-height: 18px;
+	padding:10px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.footer {	
+	justify-content: center;
+    background-color: #000000;
+	color: #FFFFFF;
+	padding:10px;	
+	text-align:center;
+	border-top: 1px solid white;
+	margin-left:25px;
+	margin-right:25px;
+	padding-top:35px;
+}
