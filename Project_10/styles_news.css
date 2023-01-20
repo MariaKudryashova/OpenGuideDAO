@@ -2,21 +2,41 @@
 	background-color: #FFFFFF;
 	color: #000000;
 }
-.header {
-	background: #FF0000;
+
+
+.header-container {
+	display: flex;
+	justify-content:center;
 }
 
-.header-name {	
+.header {
+	margin-bottom:70px;
+	display: flex;
+	justify-content:center;
+	flex-direction: column;
+	
+}
+
+.header-name {
+	width: 290px;
+}
+.header-date {
+	width: 290px;
+}
+.header-name > p {
 	background: #FF0000;
 	color: #FFFFFF;
+	
 	font-family: 'Arial';
 	font-style: italic;
 	font-weight: 700;
 	font-size: 60px;
 	line-height: 69px;	
-	text-align:center;	
+	text-align:center;		
+	margin-bottom: 38px;
+	
 }
-.header-date {
+.header-date > p {
 	font-family: 'Space Mono';
 	font-style: normal;
 	font-weight: 400;
@@ -27,6 +47,8 @@
 }
 
 
+
+
 .footer {
 	display: flex;
 	justify-content: center;
@@ -34,6 +56,7 @@
 	gap:25px;
 	
 }
+
 .menu-container {
 	display: flex;
 	justify-content:center;
@@ -45,7 +68,7 @@
 .item {
 	background: #FFFFFF;
 	color: #000000;
-	font-family: 'Arial';
+	font-family: 'Space Mono';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -57,9 +80,60 @@
 
 .main-container {
 	display: flex;
-	justify-content:center;
+	justify-content:space-around;
     flex-wrap: wrap;
-	margin-bottom:25px;
+	margin-bottom:70px;
 	margin-top:25px;
 	gap:25px;
+}
+
+.main {
+	display: flex;
+	justify-content:space-around;
+    flex-wrap: wrap;
+}
+.news-date > p {
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+.news-title > p {
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 37px;
+}
+.news-text > p {
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+.news-archive > p {
+	color: #FFFFFF;
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-size: 20px;
+	text-align:left;
+	background: #FF0000;
+	width: 85px;
+	margin-bottom:10px;
+}
+.news-image >img {
+	
+}
+.pages {
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+.slider {
+	display: flex;
+	justify-content:center;
 }

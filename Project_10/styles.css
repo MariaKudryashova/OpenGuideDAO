@@ -4,7 +4,8 @@
 }
 
 .header-container {
-	padding-left: 20%;
+	display: flex;
+	justify-content:center;
 }
 
 .header {
@@ -43,7 +44,8 @@
 	text-align:center;
 }
 .menu-container {
-	padding-left: 20%;
+	display: flex;
+	justify-content:center;
 }
 
 .menu {
@@ -79,7 +81,4 @@
 	padding:10px 0;	
 	gap:25px;
 	
-}
-.social {	
-
 }
