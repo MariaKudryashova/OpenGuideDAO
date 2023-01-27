@@ -90,7 +90,7 @@
 .main {
 	display: flex;
 	justify-content:space-around;
-    flex-wrap: wrap;
+    
 }
 .news-date > p {
 	font-family: 'Space Mono';
@@ -107,6 +107,8 @@
 	line-height: 37px;
 }
 .news-text > p {
+	height: 249px;
+	overflow-y: scroll;
 	font-family: 'Space Mono';
 	font-style: normal;
 	font-weight: 400;
@@ -123,9 +125,15 @@
 	width: 85px;
 	margin-bottom:10px;
 }
-.news-image >img {
-	
+.page-images > img {
+	width: 390px;
+	height: 260px;
 }
+.page-images {
+	vertical-align: center;
+	text-align: center;
+}
+
 .pages {
 	font-family: 'Space Mono';
 	font-style: normal;
@@ -136,4 +144,8 @@
 .slider {
 	display: flex;
 	justify-content:center;
+}
+.arrow {
+	display: flex;
+	align-items: center;
 }
