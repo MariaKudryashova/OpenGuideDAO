@@ -125,13 +125,15 @@
 	width: 85px;
 	margin-bottom:10px;
 }
-.page-images > img {
-	width: 390px;
-	height: 260px;
+
+.news-image {
+	/*vertical-align: center;
+	text-align: center;*/
+	line-height: 500px;
 }
-.page-images {
-	vertical-align: center;
-	text-align: center;
+
+.page-images > img {
+	vertical-align: middle;
 }
 
 .pages {
