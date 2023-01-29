@@ -1,5 +1,5 @@
 * {
-	background-color: #000000;
+	background: url(images/back.png);
 	color: #FFFFFF;
 }
 
@@ -61,19 +61,26 @@
 	font-style: normal;
 	font-size: 20px;
 	text-align:left;
-	background: #FF0000;
 	width: 45px;
 	margin-bottom:10px;
 }
+.main-item > a {
+	text-decoration: none;
+	background: #FF0000;
+}
 .item {
-	background: #000000;
 	color: #FFFFFF;
 	font-family: 'Space Mono';
 	font-style: normal;
 	font-size: 20px;
 	text-align:left;
-	margin-bottom:10px;
+	margin-bottom:10px;	
 }
+.item > a {
+	text-decoration: none;
+	
+}
+
 
 .footer {
 	display: flex;
